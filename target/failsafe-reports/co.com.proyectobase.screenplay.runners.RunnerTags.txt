@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: co.com.proyectobase.screenplay.runners.RunnerTags
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.764 sec <<< FAILURE! - in co.com.proyectobase.screenplay.runners.RunnerTags
+initializationError(co.com.proyectobase.screenplay.runners.RunnerTags)  Time elapsed: 0.016 sec  <<< ERROR!
+cucumber.runtime.CucumberException: 
+gherkin.ParserException$CompositeParserException: Parser errors:
+(4:2): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Caracteristica:Traductor de Google'
+(5:6): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Como usuario'
+(6:6): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Quiero ingresar al traductor de Google'
+(7:6): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'A Traducir palabras en diferentes lenguajes'
+(9:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Escenario: Traducir de Ingles a Español'
+(10:4): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Dado que Rafa quiere usar el Traductor de Google'
+(11:4): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Cuando el traduce la palabra table de Ingles a Español'
+(12:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Entonces el deberia ver la palabra mesa en la pantalla'
+(16:0): unexpected end of file, expected: #TagLine, #FeatureLine, #Comment, #Empty
+Caused by: gherkin.ParserException$CompositeParserException: 
+Parser errors:
+(4:2): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Caracteristica:Traductor de Google'
+(5:6): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Como usuario'
+(6:6): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Quiero ingresar al traductor de Google'
+(7:6): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'A Traducir palabras en diferentes lenguajes'
+(9:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Escenario: Traducir de Ingles a Español'
+(10:4): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Dado que Rafa quiere usar el Traductor de Google'
+(11:4): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Cuando el traduce la palabra table de Ingles a Español'
+(12:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Entonces el deberia ver la palabra mesa en la pantalla'
+(16:0): unexpected end of file, expected: #TagLine, #FeatureLine, #Comment, #Empty
+
